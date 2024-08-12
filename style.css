@@ -1,0 +1,29 @@
+
+
+h1 {
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.button {
+    color: #3882F6;
+}
+
+.navbar {
+    flex-direction: row;
+}
+
+.headerLeft {
+    justify-content: left;
+    align-items: left;
+}
+
+.headerRight {
+    justify-content: right;
+    align-items: right;
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
