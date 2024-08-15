@@ -55,6 +55,7 @@
     margin: 0px auto;
 }
 .heroSubText {
+    font-size: 18px;
     color: #E5E7EB;
     margin: 0px auto;
 }
@@ -76,49 +77,102 @@ p {
 .InfoSection {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 
 }
-
 .infoHeader{
-        color: #1f2937;
-        font-size: 36px;
-        font-weight: bolder;
-    }
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 0;
+}
+
 .row-items {
     display: flex;
-    justify-content: space-around;
-    
+    /* justify-content: space-around; */
+    gap: 30px;
 }
-
 .card {
-    border-color: #3882F6;
-    border-style: solid;
-    border-radius: 5%;
     display: flex;
-    flex: 1 1 auto;
     flex-direction: column;
     align-items: center;
-    max-width: 25%;
+    min-width: 140px;
+    max-width: 120px;
+
 }
+
+.imgPlaceholder {
+    height: 120px;
+    width: 120px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10%;
+    margin-bottom: 0;
+}
+
+.card p {
+    text-align: center;
+    width: 100%;
+    color: #1F2937;
+    margin-top: 0;
+    font-size: 14px;
+    align-items: stretch;
+}
+
+
+
+    
+
 
 .quoteSection {
     background-color: #E5E7EB;
+    padding: 100px;
+}
+.quoteSection .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    /* text-align: end; */
+}
+
+.quoteSection .author {
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #1f2937;
+    text-align: end;
 }
 
 .CTA {
+    margin: 40px 60px;
+    padding: 25px 50px;
     background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.InfoSection,
-p {
-    color: black;
+.CTA h3 {
+    color:#F9faf8;
+    margin-bottom: 0;
 }
+
+.CTA .signUp {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+
+}
+
+
 
 .footer {
     background-color: #1F2937;
 }
-
-.card p {
-    max-width: 80%;
-    padding: 10px;
+.footer p {
+    padding: 30px;
+    text-align: center;
 }
