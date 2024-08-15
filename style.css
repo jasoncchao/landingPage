@@ -1,52 +1,108 @@
 
-h1 { color:#F9faf8;
-}
-
-h2 {
-    font-size: 48px;
-    font-weight:bolder;
-    color: #F9faf8;
-}
-
-p {
-    color: #F9faf8;
-}
-
-.button {
-    color: #3882F6;
-    background-color: #3882F6;
-}
-
 .navbar {
     display: flex;
-    flex-direction: row;
     background-color: #1F2937;
-    height: 200px;
     justify-content: space-between;
+    padding: 10px 100px;
 }
-
-.heroBanner {
-    background-color: #1F2937;
-    display: flex;
-}
-
-.headerLeft {
-    display: flex;
-    justify-content: flex-start;
+.headerLogo {
+    font-size: 24px;
+    color:#F9faf8;
 }
 
 .headerRight {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
 }
-
 .link {
     font-size: 18px;
     color: #E5E7EB;
     margin-left: 40px;
     display: flex;
     justify-content: flex-end;
+    text-decoration: none;
+}
 
+
+
+.heroBanner {
+    padding-left: 100px; 
+    padding-right: 100px;
+    padding-bottom: 80px;
+    background-color: #1F2937;
+    display: flex;
+}
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.heroRight {
+    display: flex;
+    background-color: darkgrey;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: auto;
+}
+
+.heroMainText {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9faf8;
+    margin: 0px auto;
+}
+.heroSubText {
+    color: #E5E7EB;
+    margin: 0px auto;
+}
+
+p {
+    color: #F9faf8;
+}
+
+.signUp {
+    border-radius: 5px;
+    border: 0;
+    background-color: #3882F6;
+    color:#F9faf8;
+    width: 80px;
+    margin-top: 15px;
+}
+
+
+.InfoSection {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.infoHeader{
+        color: #1f2937;
+        font-size: 36px;
+        font-weight: bolder;
+    }
+.row-items {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card {
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5%;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25%;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
 }
 
 .CTA {
@@ -56,4 +112,13 @@ p {
 .InfoSection,
 p {
     color: black;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.card p {
+    max-width: 80%;
+    padding: 10px;
 }
